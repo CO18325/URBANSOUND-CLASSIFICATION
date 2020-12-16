@@ -1,10 +1,10 @@
 # URBANSOUND-CLASSIFICATION
 
 
-# INTRODUCTION
+## INTRODUCTION
 In this project, the aim would that Our model will be trained to understand other types of sounds also.
 
-# URBANSOUND DATASET : 
+## URBANSOUND DATASET : 
 
 8732 LABELED SOUNDS (EXCERPTS TAKEN FROM [www.freesond.org](www.freesond.org) )
 WEBSITE : [https://urbansounddataset.weebly.com/](https://urbansounddataset.weebly.com/)
