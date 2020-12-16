@@ -62,13 +62,13 @@ WEBSITE : [https://urbansounddataset.weebly.com/](https://urbansounddataset.weeb
            
 
 ## LIBROSA
-<p>
-It is a python package for music and audio analysis. It provides the building blocks necessary to create music information retrieval systems.
-	**samples, sampling_rate = librosa.load(filepath)**
-The above function automatically converts the sampling rate to 22.05KHz. And also normalize the bit depth between -1 and 1 implicitly.
-	**librosa.feature.mfcc(y=samples, sr=sampling_rate, n_mfcc = 40)**
+
+It is a python package for music and audio analysis. It provides the building blocks necessary to create music information retrieval systems.<br>
+	**samples, sampling_rate = librosa.load(filepath)**<br>
+The above function automatically converts the sampling rate to 22.05KHz. And also normalize the bit depth between -1 and 1 implicitly.<br>
+	**librosa.feature.mfcc(y=samples, sr=sampling_rate, n_mfcc = 40)**<br>
 Function to convert a discrete signal to mfcc. In this model we have taken 40 mfcc coefficients 
-</p>
+
 ## MODEL IMPLEMENTATION 
 
 In this problem statement we have used a simple deep learning model. <br>
@@ -78,20 +78,20 @@ Dataset is split into 80:20 ratio of training and validation data. Model Archite
 
 ## MODEL TRAINING 
 
-Total Parameters : **700,682**
-Non-trainable Parameters : **0**
-Learning Rate = **0.001 (Implicit)**
-Optimizer : **Adam**
-Number of Epochs : **100 (Less might also work well)**
-Batch Size : **32**
+Total Parameters : **700,682**<br>
+Non-trainable Parameters : **0**<br>
+Learning Rate = **0.001 (Implicit)**<br>
+Optimizer : **Adam**<br>
+Number of Epochs : **100 (Less might also work well)**<br>
+Batch Size : **32**<br>
 
 
 ## MODEL RESULT 
 
-TRAINING ACCURACY : **98.02%**
-TRAINING LOSS : **0.0681**
-VALIDATION ACCURACY : **92.90%**
-VALIDATION LOSS : **0.5681**
+TRAINING ACCURACY : **98.02%**<br>
+TRAINING LOSS : **0.0681**<br>
+VALIDATION ACCURACY : **92.90%**<br>
+VALIDATION LOSS : **0.5681**<br>
 
 
 ## KAGGLE IMPLEMENTATION
