@@ -43,18 +43,18 @@ WEBSITE : [https://urbansounddataset.weebly.com/](https://urbansounddataset.weeb
 	2. 24 BIT 16777216 VALUES
 	3. 32 BIT : 4294967296 VALUES
 #### MEL-SCALE : 
-	A unit of PITCH proposed by Stevens, Volkmann and Newmann in 1937. 
+A unit of PITCH proposed by Stevens, Volkmann and Newmann in 1937. 
 	The mel scale is a scale of pitches judged by listeners to be equal in distance one from another. 
 	The reference point between this scale and normal frequency measurement is defined by equating a 1000 Hz tone, 
 	40 dB above the listener's threshold, with a pitch of 1000 mels. Below about 500 Hz the mel and hertz scales coincide; 
 	above that, larger and larger INTERVALs are judged by listeners to produce equal pitch increments.
 	
 #### CEPSTRUM : 
-	It is the result of computing inverse fourier transform of the logarithm of the estimated signal spectrum.
+It is the result of computing inverse fourier transform of the logarithm of the estimated signal spectrum.
 	Cepstrum pitch determination is particularly effective because the effects of the vocal excitation (pitch) 
 	and vocal tract (formants) are additive in the logarithm of the power spectrum and thus clearly separate.
 #### MFCC : 
-	Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an MFC. 
+Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an MFC. 
 	They are derived from a type of cepstral representation of the audio clip (a nonlinear "spectrum-of-a-spectrum"). 
 	The difference between the cepstrum and the mel-frequency cepstrum is that in the MFC, 
 	the frequency bands are equally spaced on the mel scale, which approximates the human auditory system's response 
